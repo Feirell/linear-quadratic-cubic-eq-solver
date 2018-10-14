@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cjs": "tsc -p tsconfig-node.json",
     "esm": "tsc -p tsconfig-web.json",
-    "prepare": "npm run cjs && npm run esm"
+    "build": "npm run cjs && npm run esm"
   },
   "files": [
     "esm/*",
