@@ -3,11 +3,17 @@
 [![npm](https://img.shields.io/npm/v/linear-quadratic-cubic-eq-solver.svg)](https://www.npmjs.com/package/linear-quadratic-cubic-eq-solver)
 [![GitHub issues](https://img.shields.io/github/issues/Feirell/linear-quadratic-cubic-eq-solver.svg)](https://github.com/Feirell/linear-quadratic-cubic-eq-solver/issues)
 
+
+<!-- To produce a pdf with the equation use the conv.js
+
+node example-equations/conv.js example-equations/example-1.svg 4=2x^2-32x+2.1
+-->
+
 ## Solve an eqaution
 
 To solve an equation like:
 
-![eq](./exmpl.svg)
+![eq](./example-equations/example-1.svg)
 
 You can use this package like this:
 
