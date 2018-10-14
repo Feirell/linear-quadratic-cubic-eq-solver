@@ -1,0 +1,10 @@
+**/*
+!*.ts
+*.d.ts
+!*.json
+!README.md
+!tsconfig.json
+!yarn.lock
+!.gitignore
+!example-equations
+!example-equations/*
