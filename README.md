@@ -12,7 +12,7 @@ This package exposes three different functions:
 
 Which is able to solve equations in the form of:
 
-![0=ax+b](./example-equations/example-linear.svg)
+![0=ax+b](https://raw.githubusercontent.com/Feirell/linear-quadratic-cubic-eq-solver/master/example-equations/example-linear.svg?sanitize=true)
 
 It returns
 
@@ -24,7 +24,7 @@ It returns
 
 Which is able to solve equations in the form of:
 
-![0=ax^2+bx+c](./example-equations/example-quadratic.svg)
+![0=ax^2+bx+c](https://raw.githubusercontent.com/Feirell/linear-quadratic-cubic-eq-solver/master/example-equations/example-quadratic.svg?sanitize=true)
 
 It returns
 
@@ -37,7 +37,7 @@ It returns
 
 Which is able to solve equations in the form of:
 
-![0=ax^3+bx^2+cx+d](./example-equations/example-cubic.svg)
+![0=ax^3+bx^2+cx+d](https://raw.githubusercontent.com/Feirell/linear-quadratic-cubic-eq-solver/master/example-equations/example-cubic.svg?sanitize=true)
 
 It returns
 
@@ -55,7 +55,7 @@ node example-equations/conv.js example-equations/example-1.svg 4=2x^2-32x+2.1
 
 To solve an equation like:
 
-![4=2*x^2-32*x+2.1](./example-equations/example-1.svg)
+![4=2*x^2-32*x+2.1](https://raw.githubusercontent.com/Feirell/linear-quadratic-cubic-eq-solver/master/example-equations/example-1.svg?sanitize=true)
 
 You can use this package like this:
 
