@@ -55,7 +55,7 @@ node example-equations/conv.js example-equations/example-1.svg 4=2x^2-32x+2.1
 
 To solve an equation like:
 
-![eq](./example-equations/example-1.svg)
+![4=2*x^2-32*x+2.1](./example-equations/example-1.svg)
 
 You can use this package like this:
 
