@@ -67,33 +67,3 @@ console.log('solutions', solutions);
 
 // which returns: solutions [ 16.059156283383516, -0.05915628338351553 ]
 ```
-
-Or if you are using it within a browser, you could use it like this:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>testing linear-quadratic-cubic-eq-solver</title>
-
-    <script type="module" src="base.js"></script>
-</head>
-
-<body>
-
-</body>
-
-</html>
-```
-
-```js
-// base.js
-import * as solver from './node_modules/linear-quadratic-cubic-eq-solver/esm/index.js';
-
-const solutions = solver.solveQuadraticEquation(2, -32, 2.1 - 4);
-console.log('solutions', solutions);
-
-// which returns: solutions [ 16.059156283383516, -0.05915628338351553 ]
-```

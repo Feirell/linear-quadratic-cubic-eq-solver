@@ -1,6 +1,6 @@
 {
   "name": "linear-quadratic-cubic-eq-solver",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "solves linear, quadratic and cubic equations",
   "main": "cjs/index.js",
   "scripts": {
