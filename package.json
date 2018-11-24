@@ -1,14 +1,11 @@
 {
   "name": "linear-quadratic-cubic-eq-solver",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "solves linear, quadratic and cubic equations",
   "main": "cjs/index.js",
-  "module": "esm/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cjs": "tsc -p tsconfig-node.json",
-    "esm": "tsc -p tsconfig-web.json",
-    "build": "npm run cjs && npm run esm"
+    "build": "tsc"
   },
   "files": [
     "esm/*",
