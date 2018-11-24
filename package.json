@@ -8,8 +8,7 @@
     "build": "tsc"
   },
   "files": [
-    "esm/*",
-    "cjs/*"
+    "cjs"
   ],
   "repository": {
     "type": "git",
