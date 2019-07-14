@@ -29,6 +29,9 @@
   },
   "homepage": "https://github.com/Feirell/linear-quadratic-cubic-eq-solver#readme",
   "devDependencies": {
+    "acorn": "^6.1.1",
+    "acorn-walk": "^6.1.1",
     "typescript": "^3.5.1"
-  }
+  },
+  "dependencies": {}
 }
