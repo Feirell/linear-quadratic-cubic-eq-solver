@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "declaration": false,
+    "outDir": "merge-transform",
+    "sourceMap": true
+  },
+  "files": ["./transform-all-functions-to-assembled.ts"]
+}

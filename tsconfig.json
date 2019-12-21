@@ -3,7 +3,8 @@
     "target": "es6",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "cjs"
+    "outDir": "cjs",
+    "sourceMap": true
   },
   "files": [
     "index.ts",

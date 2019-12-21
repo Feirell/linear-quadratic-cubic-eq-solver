@@ -57,6 +57,14 @@ class Complex {
         return roots;
     }
 
+    length(){
+        const re = this.re;
+        const im = this.im;
+
+        // length of the complex number 
+        return Math.sqrt(re * re + im * im);
+    }
+
     /**
      * Is a simplified variant of the root(), which is somewhat faster and only returns the first root.
      */
