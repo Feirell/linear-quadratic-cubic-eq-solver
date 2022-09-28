@@ -2,18 +2,16 @@
   "name": "linear-quadratic-cubic-eq-solver",
   "version": "0.0.4",
   "description": "solves linear, quadratic and cubic equations",
-  "main": "cjs/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "packageManager": "yarn@3.2.3",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
   "files": [
-    "cjs"
+    "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Feirell/linear-quadratic-cubic-eq-solver.git"
-  },
+  "repository": "https://github.com/Feirell/linear-quadratic-cubic-eq-solver.git",
   "keywords": [
     "solve",
     "equation",
@@ -29,6 +27,6 @@
   },
   "homepage": "https://github.com/Feirell/linear-quadratic-cubic-eq-solver#readme",
   "devDependencies": {
-    "typescript": "^3.5.1"
+    "typescript": "^4.8.4"
   }
 }
